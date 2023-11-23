@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.d-block  {      /* image class in caurosel */
+    height: 650px;
+    width: 100%;
+}
+
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    color: chartreuse;
+    font-size:40px;
+}
+
+.nav-link{
+    display: inline-block;
+    list-style: none;
+    display: flex;
+    /* text-align: right; */
+    margin: 10px 20px;
+    /* font-size: 25px; */
+    font-weight: bold;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: chartreuse;
+    color: black;
+ 
+}

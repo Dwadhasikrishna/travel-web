@@ -1,0 +1,193 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.d-block  {      /* image class in caurosel */
+    height: 650px;
+    width: 100%;
+}
+
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(0, 162, 255);
+    font-size:40px;
+}
+
+.nav-link{
+    display: inline-block;
+    list-style: none;
+    display: flex;
+    /* text-align: right; */
+    margin: 10px 20px;
+    /* font-size: 25px; */
+    font-weight: bold;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: rgb(26, 56, 66);
+    color: rgb(231, 230, 230);
+ 
+}
+
+/* .h5{
+    font-family: 'Dancing Script', cursive;
+    color: chocolate;
+    font-weight: bold;
+    margin-bottom: 440PX;
+    font-size: 40px;
+} */
+
+/* package */
+
+.package{
+    background-color: lavender;
+}
+
+.package h4{
+    color: maroon;
+    font-weight: bold;
+}
+
+.package-card{
+    height: 450px;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px 0 rgb(130, 116, 99);
+}
+
+
+.package-card:hover{
+    transform: scale(1.15);
+}
+
+/* about */
+
+
+
+
+.video{
+    background: url('https://images.ctfassets.net/wqdtr8q8192q/28KbLkjsWV6G0MV11VfXmE/a2d73238229bfda923152ed30aa905ec/iStock-1353245759.jpg');
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.video a{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+
+}
+
+h5{
+    color: blue;
+}
+
+.card-link{
+    text-decoration: none;
+    color: darkgray;
+}
+
+.blog h2{
+    color: darkred;
+    font-weight: bolder;
+}
+
+.blog h4{
+    color: darkgreen;
+    font-style: italic;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+.b-card{
+    box-shadow: 0 4px 8px 0 rgb(130, 116, 99);
+}
+/* contact */
+
+.image{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),#3551b5), url('https://images.pexels.com/photos/2150347/pexels-photo-2150347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-grop{
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+    border-radius: 8px;
+   
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+
+button{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+
+}
+
+
+
+
+
+
